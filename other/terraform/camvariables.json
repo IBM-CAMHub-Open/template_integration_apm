@@ -95,7 +95,7 @@
     {
       "name": "apm_agents",
       "type": "string",
-      "description": "A space separated list of agents to install",
+      "description": "A space separated list of agents to install. For example, os.",
       "hidden": false,
       "label": "APM agents list",
 
