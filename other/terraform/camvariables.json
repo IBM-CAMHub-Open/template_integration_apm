@@ -25,7 +25,7 @@
     },
     {
       "name": "password",
-      "type": "string",
+      "type": "password",
       "description": "Password of the installation user.",
       "hidden": false,
       "label": "Operating system password",
@@ -98,7 +98,6 @@
       "description": "A space separated list of agents to install. For example, os.",
       "hidden": false,
       "label": "APM agents list",
-
       "secured": false,
       "required": true,
       "immutable": false,
@@ -107,4 +106,3 @@
     }
   ]
 }
-
