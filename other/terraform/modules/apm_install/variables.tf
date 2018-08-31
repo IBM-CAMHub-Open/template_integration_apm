@@ -25,3 +25,26 @@ variable "apm_source_subdir" { description = "Subdirectory within the installer 
 variable "apm_dir" { description = "APM Installation Directory" default = "/opt/ibm/apm/agent" }
 variable "apm_agents" { type = "string" description = "List of APM agents to install, eg, os." }
 
+##############################################################
+# Define the bastion variables
+##############################################################
+variable "bastion_host" {
+  type = "string"
+}
+
+variable "bastion_user" {
+  type = "string"
+}
+
+variable "bastion_private_key" {
+  type = "string"
+}
+
+variable "bastion_port" {
+  type = "string"
+}
+
+variable "bastion_password" {
+  type = "string"
+}
+

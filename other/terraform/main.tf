@@ -10,4 +10,11 @@ module "apm_install_linux" {
   apm_source_subdir = "${var.apm_source_subdir}"
   apm_dir = "${var.apm_dir}"
   apm_agents = "${var.apm_agents}"
+  #######
+  bastion_host        = "${var.bastion_host}"
+  bastion_user        = "${var.bastion_user}"
+  bastion_private_key = "${var.bastion_private_key}"
+  bastion_port        = "${var.bastion_port}"
+  bastion_password    = "${var.bastion_password}"      
+  #######  
 }

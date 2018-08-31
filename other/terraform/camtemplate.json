@@ -1,7 +1,7 @@
 {
     "name": "APM Agent Installation Template",
     "description": "This template will install IBM APM agents on a target node.",
-    "version": "1.0",
+    "version": "2.1",
     "imageUrl": "",
     "image": "",
     "type": "integration",

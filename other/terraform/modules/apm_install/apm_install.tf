@@ -20,4 +20,9 @@ resource "camc_scriptpackage" "RemoteScript" {
   destination = "/tmp/install_apm_linux.sh"
   source = "${path.module}/scripts/install_apm_linux.sh"
   on_create = true
+  bastion_host = "${var.bastion_host}"
+  bastion_user = "${var.bastion_user}"
+  bastion_password = "${var.bastion_password}"
+  bastion_private_key = "${var.bastion_private_key}"  
+  bastion_port = "${var.bastion_port}"  
 }
