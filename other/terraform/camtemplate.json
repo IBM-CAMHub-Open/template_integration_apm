@@ -23,7 +23,6 @@
       }
     },
     "metadata": {
-      "displayName": "APM Agent Installation Template",
       "providerDisplayName": "Other",
       "longDescription": "This template will install IBM APM agents on a target node. The APM Agent Installation package(APMADV_Agent_Install.tar) must be loaded in the environment and accessible via a target URI (http/s, ftp, file).",
       "bullets": [{
